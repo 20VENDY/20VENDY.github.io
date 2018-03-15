@@ -1,0 +1,150 @@
+  body {
+  	background-image: url("img/flowertwo.jpg");
+  	background-size: cover;
+    background-repeat:no-repeat;
+  	font-family:'Rammetto One';
+  }
+
+
+
+  ul {
+    display: flex;
+    justify-content: flex-start; 
+    opacity: .5;
+  	margin: 0px;
+  	padding: 10px;
+  	list-style: none;
+    background-color: DodgerBlue;}
+
+  ul li {
+  	width: 100%;
+  	padding: 10px;
+  	text-align: center;
+  	font-size: 30px;
+    font-family:'Rammetto One';}
+
+  li {
+    border-right: 1px solid #bbb;
+  }
+
+  ul li a {
+  	text-decoration: none;
+  	font-weight: bold;
+  	color: black;
+  	/*width: 60px;*/
+  }
+
+  ul li a:hover {
+  	background-color: #f5e3e7; }
+
+
+  h3 {
+  	text-align: centre;
+  	font-size: 20px;}
+
+  h1 {
+	border-top: 5px dotted red;
+	text-decoration: underline;}
+
+
+ 
+ 
+#details {
+ 	text-transform: uppercase;
+ 	font-family: Rammetto One;
+ 	text-align: left;
+  }
+
+
+
+.elephant {
+       border: 4px solid pink;
+      /*display: flex;*/
+      /*justify-content: centre;*/
+      /*display: inlink-block;*/
+     }
+
+
+
+#satu {
+	background-color: #ffe4c4;}
+
+
+#total{
+	display: flex;
+	justify-content: center;
+}
+
+.flexbox-img-section {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+#profile_pic {
+  border-radius: 50%;
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+
+.flexbox {
+  display: flex;
+  height: 100px;
+  width: :120%;
+  justify-content: center;
+  opacity: 0.5;
+  
+}
+
+.container1{
+  background: #ade0ff;
+  border-style: dotted;
+  border-width: 1px;
+  width: 50px;
+  justify-content: center;
+  font-size: 50px;
+  border-left-color: red;
+  border-left-width: 6px;
+  border-left-style: solid;
+  margin: 0px;
+  font-family: : Limelight;
+
+}
+
+
+
+#first, #third, #fifth {
+  align-self: flex-start;
+}
+#second, #fourth {
+  align-self: flex-end;
+}
+
+#picture{
+  margin: center;
+}
+
+#projectphotoall{
+  flex-direction: wrap;
+  display: flex;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+#projecttext1{
+  margin: 20px;
+  border-style: solid;
+  border-width: 5px;
+  padding: 5px;
+
+}
+
+#fontoftitle{
+  font-family: Coda-caption;
+  font-size: 50px;
+  margin-top: 20px;
+
+  }
